@@ -1,0 +1,55 @@
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    297deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(70, 11, 77, 1) 0%,
+    rgba(79, 12, 83, 1) 0%,
+    rgba(58, 9, 70, 1) 0%,
+    rgba(97, 15, 94, 1) 23%,
+    rgba(154, 54, 160, 1) 61%,
+    rgba(179, 28, 144, 1) 100%
+  );
+}
+
+.name-of-game {
+  text-align: center;
+  background: -webkit-linear-gradient(
+    50deg,
+    rgb(64, 224, 64),
+    rgb(194, 179, 44)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.game-field {
+  background-color: orange;
+  min-height: 10vh;
+  margin: 1px 1px 1px 1px;
+  line-height: 10vh;
+}
+
+.target {
+  background-color: green;
+  color: white;
+  font-size: 24pt;
+  text-align: center;
+}
+
+.miss {
+  background-color: red;
+}
+
+.time-win {
+  color: green;
+}
+
+.less {
+  color: red;
+}
+
+button {
+  width: 1300px;
+  height: 100px;
+}
